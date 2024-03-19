@@ -1,0 +1,15 @@
+.box {
+  height: 400px;
+  width: auto;
+  display: inline-flex;
+  position: relative;
+  border: 1px solid;
+}
+
+.basketball4 {
+  height: 500px;
+  width: auto;
+  display: inline-block;
+  position: relative;
+  border: 1px solid;
+}
