@@ -1,15 +1,36 @@
-.box {
-  height: 400px;
-  width: auto;
-  display: inline-flex;
-  position: relative;
-  border: 1px solid;
+body {
+  margin: 0;
 }
 
-.basketball4 {
-  height: 500px;
-  width: auto;
-  display: inline-block;
+.box {
+  width: 250px;
+  height: 250px;
+  justify-content: space-between;
   position: relative;
-  border: 1px solid;
+  display: inline-block;
+}
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+
+.circle {
+  background: violet;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+.bigbox {
+  width: 60%;
+  height: 200px;
+  background-color: brown;
+  border-radius: 12px;
 }
