@@ -1,7 +1,4 @@
-body {
-  margin: 0;
-}
-
+/* Picasso CSS */
 .box {
   width: 250px;
   height: 250px;
@@ -34,3 +31,37 @@ body {
   background-color: brown;
   border-radius: 12px;
 }
+
+/* Thank you CSS */
+.thankyou {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  background-image: url(/images/thankyou.jpg);
+  font-weight: 600;
+  font-family: sans-serif, monospace, serif;
+}
+
+/* Form CSS */
+
+/* .formIMG {
+  background-image: url(/images/fire.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
