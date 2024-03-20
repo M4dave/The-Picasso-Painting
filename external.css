@@ -1,28 +1,46 @@
 /* Picasso CSS */
-.container {
-  width: auto;
+/* .container {
+  border-radius: 5px;
+  border: 3px solid black;
+} */
+
+.box-b1 {
+  display: inline-block;
+  border: 3px solid black;
 }
 
-img {
-  padding: 10px 10px;
-  max-width: 31%;
-  justify-content: space-between;
+.box-b1 img {
+  height: 350px;
+  width: 453px;
+  margin: 10px;
+  padding: 10px;
 }
-
+.bigbox {
+  display: flex;
+  border: 3px solid black;
+  justify-content: end;
+}
 .bigbox img {
-  max-width: 98%;
-  padding: 10px 10px;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
 }
-
-/* .circle {
-  background: violet;
+.circle {
+  background-color: #8d5791;
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  display: inline-block;
-  top: 0;
-  right: 0;
-} */
+  /*top: -300px; */
+  left: -80%;
+  position: relative;
+}
+.description {
+  font-size: 1em;
+  color: blue;
+  font-weight: 700;
+  text-align: center;
+}
 
 /* Thank you CSS */
 .thankyou {
