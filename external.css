@@ -5,7 +5,7 @@
 
 img {
   padding: 10px 10px;
-  max-width: 30%;
+  max-width: 31%;
   justify-content: space-between;
 }
 
@@ -39,20 +39,43 @@ img {
 
 /* Form CSS */
 
-/* .formIMG {
+.formIMG {
   background-image: url(/images/fire.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-} */
+}
 
 .form {
   display: flex;
   flex-direction: column;
   height: 500px;
   width: 400px;
-  align-items: center;
   margin: auto;
   margin-top: 160px;
+  color: white;
+  border: 3px white solid;
+  border-radius: 20px;
+}
+
+.form label {
+  font: 1em sans-serif;
+}
+
+.form input {
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+}
+
+.form h1 {
+  font: 2em sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#submit {
+  text-align: center;
+  width: 80px;
 }
