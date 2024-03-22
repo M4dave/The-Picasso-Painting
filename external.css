@@ -1,7 +1,6 @@
-@media screen and (max-width: 375px) {
-  body {
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 430px) {
+  .container {
+    width: 100%;
   }
 }
 
@@ -47,32 +46,47 @@ body {
 #b3 img {
   position: relative;
   left: 5px;
-  top: 25px;
+  top: 20px;
 }
 
 #signUp a {
   text-decoration: none;
   color: #124749;
-  right: -500px;
+  left: 470px;
   bottom: 400px;
   position: relative;
   font-size: 2em;
+  font-weight: 900;
   font-family: sans-serif;
   z-index: 100;
 }
 
 .circle {
   background-color: #753820;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 100px;
   height: 100px;
   bottom: 400px;
-  right: -520px;
+  left: 520px;
   position: relative;
   z-index: 100;
   opacity: 0.5;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.triangle {
+  bottom: 400px;
+  left: 40px;
+  position: relative;
+  z-index: 100;
+  opacity: 0.5;
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid #c30c17;
 }
 
 /* Thank you CSS */
