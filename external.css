@@ -1,6 +1,17 @@
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 1024px) {
   .container {
-    width: 100%;
+    width: auto;
+  }
+}
+@media screen and (max-width: 412px) {
+  .container {
+    width: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container,
+  body {
+    width: auto;
   }
 }
 
@@ -9,12 +20,10 @@
 .container {
   display: flex;
   justify-content: space-between;
-  z-index: 100;
-  font-family: sans-serif, monospace, serif, cursive, fantasy;
+  font-family: sans-serif, monospace, serif;
 }
 body {
-  background-color: white;
-  z-index: 100;
+  background-color: #ece9da;
 }
 
 .photo-column img {
@@ -52,8 +61,8 @@ body {
 #signUp a {
   text-decoration: none;
   color: #124749;
-  left: 470px;
-  bottom: 400px;
+  left: 350px;
+  bottom: 300px;
   position: relative;
   font-size: 2em;
   font-weight: 900;
@@ -66,8 +75,8 @@ body {
   border-radius: 100%;
   width: 100px;
   height: 100px;
-  bottom: 400px;
-  left: 520px;
+  bottom: 310px;
+  left: 400px;
   position: relative;
   z-index: 100;
   opacity: 0.5;
@@ -77,8 +86,8 @@ body {
 }
 
 .triangle {
-  bottom: 400px;
-  left: 40px;
+  bottom: 360px;
+  left: 5px;
   position: relative;
   z-index: 100;
   opacity: 0.5;
