@@ -48,6 +48,7 @@ body {
 
 #b1 {
   position: relative;
+  z-index: 100;
   right: 5px;
   top: -6px;
 }
@@ -55,11 +56,13 @@ body {
 #b2 {
   position: relative;
   top: 15px;
+  z-index: 100;
 }
 #b3 {
   position: relative;
   left: 5px;
   top: 20px;
+  z-index: 100;
 }
 
 /* Sign UP CSS  */
