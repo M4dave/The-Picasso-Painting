@@ -22,14 +22,16 @@
   justify-content: space-between;
   font-family: sans-serif, monospace, serif;
 }
+
 body {
   background-color: #ece9da;
 }
 
 .photo-column img {
-  display: inline-block;
+  /*  display: inline-block;
+  position: relative; */
   width: 100%;
-  z-index: 100;
+  /*  z-index: 100; */
   border-radius: 40px;
 }
 
@@ -42,17 +44,17 @@ body {
   z-index: 100;
 }
 
-#b1 img {
+#b1 {
   position: relative;
   right: 5px;
   top: -6px;
 }
 
-#b2 img {
+#b2 {
   position: relative;
   top: 15px;
 }
-#b3 img {
+#b3 {
   position: relative;
   left: 5px;
   top: 20px;
@@ -105,7 +107,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
+  /*  position: relative; */
   text-align: center;
   background-image: url(/images/thankyou.jpg);
   font-weight: 600;
