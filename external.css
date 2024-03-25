@@ -43,12 +43,12 @@ body {
   border-radius: 40px;
   position: relative;
   top: -70px;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 #b1 {
   position: relative;
-  z-index: 100;
+  /*   z-index: 100; */
   right: 5px;
   top: -6px;
 }
@@ -56,13 +56,13 @@ body {
 #b2 {
   position: relative;
   top: 15px;
-  z-index: 100;
+  /* z-index: 100; */
 }
 #b3 {
   position: relative;
   left: 5px;
   top: 20px;
-  z-index: 100;
+  /*  z-index: 100; */
 }
 
 /* Sign UP CSS  */
@@ -75,7 +75,7 @@ body {
   font-size: 2em;
   font-weight: 900;
   font-family: sans-serif;
-  z-index: 100;
+  /*  z-index: 100; */
 }
 
 /* Circle CSS */
@@ -88,7 +88,7 @@ body {
   bottom: 310px;
   left: 400px;
   position: relative;
-  z-index: 100;
+  /* z-index: 100; */
   opacity: 0.5;
   text-align: center;
   font-size: 1.5em;
